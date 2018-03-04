@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.shouyi.xue.bussearch.MainActivity">
+
+    <Button
+        android:id="@+id/click_search_bus_point_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="公交站点信息查询" />
+
+    <Button
+        android:id="@+id/click_search_bus_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="公交线路信息查询" />
+
+    <Button
+        android:id="@+id/click_search_bus_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="公交换乘信息查询" />
+
+</LinearLayout>
